@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+nav{
+    display: flex;
+    padding: 14px 16px;
+    justify-content: space-between;
+    height:71px;
+   
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo img{
+    width:150px;
+    height:40px;
+}
+.menu-bar{
+    height:42px;
+    width:42px;
+    background-color: #3083ff;
+}
+.menu{
+    position: absolute;
+    top:86px;
+    background-color: #ffffff;
+    right:0;
+    left:0;
+    max-height:0px;
+    overflow: hidden;
+    transition: max-height 0.6s ease-out;
+}
+.menu-items{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+
+}
+.menu.active{
+    max-height: 1000px;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 24px;
+    
+}
+main{
+    padding:40px 0px;
+}
+.intro-section{
+    padding:0px 20px;
+}
+.intro-content{
+    text-align: center;
+    
+}
+.intro-content h1{
+    font-size: 36px;
+    margin-bottom: 16px;
+    color:#1c365a;
+}
+.intro-content p{
+    margin-bottom: 30px;
+    color:#6E7891;
+}
+.btn{
+    height:60px;
+    width:100%;
+    border: 0px ;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.intro-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact-us-btn{
+    background-color: #3083ff;
+    color: #ffffff;
+}
+.contact-us-btn:hover{
+    background-color: #ffffff;
+    color: #3083ff;
+    border: 1px solid #3083ff
+}
+.browse-services-btn{
+    background-color: #ffffff;
+    color: #3083ff;
+    border: 1px solid #3083ff;
+}
+.browse-services-btn:hover{
+    background-color: #3083ff;
+    color: #ffffff;
+}
+.contact-section-contacts{
+    text-align: center;
+    padding:60px 22px;
+    display: flex;
+    flex-direction: column;
+    gap:2.3rem;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin:0px 0px 30px 0px;
+    
+}
+.contact-section-icons{
+    color:#3083ff;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.contact-section{
+    width:100%;
+    margin-top: 60px;
+    padding:0px 20px 0px 20px;
+    
+}
+
+.contact-section-image img{
+    width: 100%;
+    height:520px;
+}
+.contact-label{
+    color:#1c365a;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.contact-label-content{
+    color:#3083ff;
+    font-weight: 500;
+}
+.experience-section{
+    text-align:center;
+    background-color: #001845;
+    padding:80px 20px;
+}
+.experience-section h2{
+    font-size: 34px;
+    color: #ffffff;
+    margin:15px 0px;
+}
+.experience-section p{
+    color:#ffffff;
+    font-weight: 500;
+}
+.experience-contents .title{
+    color:#FDB52A;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.experience-numbers{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin:40px 0px 50px 0px;
+}
+.stats{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+}
+.stat-number{
+    font-size: 34px;
+    font-weight: 600;
+}
+.stat-label{
+    font-weight: 800;
+}
+.yellow{
+    color: #FDB52A;
+}
+.blue{
+    color: #3083ff;
+}
+.services-section{
+    text-align: center;
+    padding: 80px 20px;
+}
+.services-section-content .title{
+    color: #3083ff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.services-section-content h2{
+    font-size: 34px;
+    margin: 15px 0px;
+    color:#1C365A;
+}
+.services-section-content p{
+    color:#6E7891;
+}
