@@ -5,6 +5,9 @@
     font-family: "Roboto", sans-serif;
     
 }
+main{
+    max-width: 500px;
+}
 nav{
     display: flex;
     padding: 14px 16px;
@@ -108,7 +111,7 @@ main{
     display: flex;
     flex-direction: column;
     gap:2.3rem;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     margin:0px 0px 30px 0px;
     
@@ -145,7 +148,7 @@ main{
     padding:80px 20px;
 }
 .experience-section h2{
-    font-size: 34px;
+    font-size: 36px;
     color: #ffffff;
     margin:15px 0px;
 }
@@ -186,8 +189,9 @@ main{
 }
 .services-section{
     text-align: center;
-    padding: 80px 20px;
+    padding: 80px 20px 30px 20px;
 }
+
 .services-section-content .title{
     color: #3083ff;
     font-size: 18px;
@@ -195,10 +199,121 @@ main{
     font-weight: 700;
 }
 .services-section-content h2{
-    font-size: 34px;
+    font-size: 36px;
     margin: 15px 0px;
     color:#1C365A;
 }
 .services-section-content p{
     color:#6E7891;
+}
+.service-slide{
+    border-radius: 16px;
+    margin:50px 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+
+}
+.services-slider-content{
+    padding:50px 20px 40px 20px;
+}
+.services-image img{
+    border-radius: 16px 16px 0px 0px;
+    width:100%;
+    height:220px;
+
+}
+.services-slider-content h3{
+    font-size: 22px;
+    color: #1C365A;
+}
+.services-slider-content p{
+    color:#6E7891;
+    margin:10px 0px 0px 0px;
+}
+.services-icon-wrapper{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top:187px;
+    justify-content: center;
+
+}
+.services-icon{
+    width:66px;
+    height:66px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #e6faff;
+}
+.services-icon span{
+    font-size: 45px;
+    color:#3083ff;
+}
+.problem-fix-section{
+    background-color: #3083ff;
+    color:#ffffff;
+    text-align: center;
+    padding:80px 20px 80px 20px;
+}
+.problem-fix-section h2{
+    font-size: 36px;
+    margin:0px 0px 10px 0px;
+}
+.problem-fix-section p{
+    margin:0px 0px 40px 0px;
+}
+.call-action{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.call-action{
+    font-size: 28px;
+    font-weight: 500;
+}
+.call-action:hover{
+    color: #333;
+}
+.icon-call-action{
+    font-weight: 800;
+    font-size: 36px;
+    margin-right: 5px;
+}
+.or-option{
+    margin:16px 0px 20px 0px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.fix-problem-btn{
+    color: #3083ff;
+}
+.fix-problem-btn:hover{
+    color:#ffffff;
+    background-color: #333;
+    
+}
+footer{
+    padding:10px 20px 20px 20px;
+}
+footer p{
+    margin-top: 30px;
+}
+footer img{
+    width:175px;
+    height:50px;
+}
+.footer-links{
+    margin:30px 0px ;
+    font-size: 20px;
+}
+.footer-links p{
+    margin-bottom: 16px;
+}
+.social-media-icons{
+    color: #3080ff;
+    font-size: 30px;
 }
